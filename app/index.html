@@ -31,6 +31,19 @@
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.1/firebase.js"></script>
+  <script>
+      // Initialize Firebase
+      var config = {
+          apiKey: "AIzaSyCjI30Vc_cN48_VBl6zY5oE0rmyiGDT4rI",
+          authDomain: "testnode-96929.firebaseapp.com",
+          databaseURL: "https://testnode-96929.firebaseio.com",
+          projectId: "testnode-96929",
+          storageBucket: "testnode-96929.appspot.com",
+          messagingSenderId: "286112289478"
+      };
+      firebase.initializeApp(config);
+  </script>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
